@@ -74,7 +74,7 @@ export const FilteredSidebar = () => {
         setSearchParamas(params)
         navigate(`?${params.toString()}`)
 
-       console.log(newFilters,"daya")
+ 
       
      }
 

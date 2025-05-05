@@ -52,7 +52,7 @@ export const Checkout = () => {
       
         if(res && res.payload._id){
             setCheckoutId(res.payload._id)
-           console.log(res.payload._id)
+           
         }
       }
     }

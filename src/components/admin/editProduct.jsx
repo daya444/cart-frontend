@@ -42,7 +42,7 @@ export const EditProduct = () => {
     useEffect(()=>{
      if(selectedProduct){
         setProductData(selectedProduct)
-        console.log(selectedProduct)
+        
      }
     },[selectedProduct])
 

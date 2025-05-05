@@ -20,7 +20,7 @@ export const SearchBar = () => {
 
      const handleSearch = (e)=> {
       e.preventDefault();
-      console.log( "check",searchTerm)
+      
       dispatch(setFilters({search : searchTerm}))
       dispatch(fetchProductByFilters({search : searchTerm}))
       navigate(`collections/all?search=${searchTerm}`)

@@ -7,7 +7,7 @@ export const CartContent = ({cart,guestId,userId}) => {
 
     const dispatch = useDispatch()
 
-    console.log("content ",cart)
+   
     
 
     const handleAddToCart =(productId,delta,quantity,size,color)=>{
